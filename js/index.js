@@ -114,6 +114,3 @@ function updateInfo(index) {
   vGoal.text(data[index].goals);
   vGames.text(data[index].games);
 }
-
-
-alert(HEY);
