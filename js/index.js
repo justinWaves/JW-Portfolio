@@ -1,3 +1,6 @@
+
+
+
 var header = $('.stats__header');
 var bar  = $('.stats__item-bar');
 var nums = $('.stats__item-num');
@@ -14,7 +17,7 @@ $(document).on('ready', function() {
   entrance();
 });
 
-bar.on('click', showOverlay);
+bar.on('', showOverlay);
 back.on('click', showOverlay);
 
 function entrance() {
@@ -111,3 +114,6 @@ function updateInfo(index) {
   vGoal.text(data[index].goals);
   vGames.text(data[index].games);
 }
+
+
+alert(HEY);
