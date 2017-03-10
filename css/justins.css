@@ -24,10 +24,12 @@
 
 
 .dropdownJW{
-    display: none;
+    display: ;
     position: fixed;
     right: 0px; 
     z-index:20; 
+    margin-right: 10px;
+    opacity: 70%;
 }
 
 
@@ -417,7 +419,7 @@ margin: 0 auto;
 
 
 .imacWrap{
-    background-image: url(../images/wcsscreenshot.jpg);
+    background-image: url(../Images/wcsscreenshot.jpg);
  	background-position: 0px 0px;
 	background-repeat: repeat-y;
     background-size:96%;
@@ -532,7 +534,7 @@ margin: 0 auto;
 }
 
 .ssWrap{
-    background-image: url(../images/surecigs.gif);
+    background-image: url(../Images/surecigs.gif);
  	background-position: 0px 0px;
 	background-repeat: repeat-y;
     background-size:96%;
