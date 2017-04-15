@@ -113,17 +113,17 @@ ul {
           transition-delay: 0.3s;
 }
 .stats__item:nth-of-type(4) .stats__item-bar {
-  height: 160px;
+  height: 80px;
   -webkit-transition-delay: 0.4s;
           transition-delay: 0.4s;
 }
 .stats__item:nth-of-type(5) .stats__item-bar {
-  height: 152px;
+  height: 90px;
   -webkit-transition-delay: 0.5s;
           transition-delay: 0.5s;
 }
 .stats__item:nth-of-type(6) .stats__item-bar {
-  height: 140px;
+  height: 40px;
   -webkit-transition-delay: 0.6s;
           transition-delay: 0.6s;
 }
@@ -133,7 +133,7 @@ ul {
           transition-delay: 0.7s;
 }
 .stats__item:nth-of-type(8) .stats__item-bar {
-  height: 80px;
+  height: 160px;
   -webkit-transition-delay: 0.8s;
           transition-delay: 0.8s;
 }
