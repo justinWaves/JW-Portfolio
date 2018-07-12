@@ -65,29 +65,28 @@
 }
 
 .title {
-
-  text-align: center;
-  padding: 10px;
-  text-shadow: 2px 2px 2px #aaa;
-  color: #FFF;
-    
+    text-align: center;
+    padding: 10px;
+    color: #FFF;
     max-height:1111px;
     background: linear-gradient( #d6d6d6, #FFFFFF);
 }
 
-.mainLogo{
+.titleText{
+    margin-top: -20px;
+    text-shadow: 2px 2px 2px #d6d6d6;;
+    
+}
 
+.mainLogo{
     margin:15px;
     width:95%; 
     max-width:550px;
     height: auto;
-   -webkit-filter: drop-shadow(2px 2px 2px #aaa); 
-    filter: drop-shadow(2px 2px 8px #aaa);
 }
 
 .logoAnimate{
     transition: filter  ;
-    
 }
 
 .mainLogo:hover{
@@ -111,7 +110,7 @@
 .graphContainer{
     z-index:1;
     padding:30px; 
-    background-color:#474747; 
+    background-color:#d6d6d6; 
     -webkit-box-shadow: inset 0 0 40px rgba(0,0,0,.5);
     box-shadow: inset 0 0 40px rgba(0,0,0,.5);" 
 }
@@ -621,12 +620,19 @@ margin: 0 auto;
 
 /*------------------Footer Gears--------------------*/
 
-.footerGearLove{
+.gearFooterLove{
     z-index:100;
-    position:center;
-    
+    position:relative;
+    text-align: center;
+    margin-top: 60px;
 }
 
+.gearFooterLove2{
+    z-index:100;
+    position:relative;
+    text-align: center;
+    margin-top: -10px;
+}
 
 .gearContain{
     z-index: -2;
@@ -843,7 +849,7 @@ margin: 0 auto;
 
 .footerContain{
     z-index: 3;
-    padding:40px;  
+    padding:10px;  
     background-color:#d6d6d6; 
     display: table;
     width: 100%;
@@ -893,14 +899,22 @@ margin: 0 auto;
     filter: drop-shadow(10px 15px rgba(0, 0, 0, 0.2));
 }
 
+.mainLogo2{
+    position: relative;
+    margin-left:0px;
+    width:95%; 
+    max-width:550px;
+    height: auto;
+    margin-bottom:40px;
+}
   
 
 .SocialMedia{
   float:right;
-  font-size:550%;
-  margin-top:0px;
-          -webkit-filter: drop-shadow(10px 15px rgba(0, 0, 0, 0.2);); 
-    filter: drop-shadow(10px 15px rgba(0, 0, 0, 0.2));
+  font-size:510%;
+  margin-top:20px;
+    margin-bottom:20px;
+
 }
 
 
@@ -908,5 +922,5 @@ margin: 0 auto;
     margin-left:10px;
     position: relative;
     bottom:-30px;
-    left:-30px;
+    left:-20px;
 }
