@@ -621,6 +621,13 @@ margin: 0 auto;
 
 /*------------------Footer Gears--------------------*/
 
+.footerGearLove{
+    z-index:100;
+    position:center;
+    
+}
+
+
 .gearContain{
     z-index: -2;
     position:relative;

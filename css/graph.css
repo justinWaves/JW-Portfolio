@@ -21,7 +21,7 @@
   font-family: 'Lato';
   -webkit-font-smoothing: antialiased;
   color: white;
-  background: #474747;
+  background: #d6d6d6;
 }
 
 ul {
@@ -123,12 +123,12 @@ ul {
           transition-delay: 0.5s;
 }
 .stats__item:nth-of-type(6) .stats__item-bar {
-  height: 40px;
+  height: 140px;
   -webkit-transition-delay: 0.6s;
           transition-delay: 0.6s;
 }
 .stats__item:nth-of-type(7) .stats__item-bar {
-  height: 40px;
+  height: 160px;
   -webkit-transition-delay: 0.7s;
           transition-delay: 0.7s;
 }
