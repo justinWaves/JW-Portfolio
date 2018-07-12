@@ -64,6 +64,7 @@
     text-align: center;
 }
 
+
 .title {
     text-align: center;
     padding: 10px;
@@ -72,10 +73,10 @@
     background: linear-gradient( #d6d6d6, #FFFFFF);
 }
 
+
 .titleText{
     margin-top: -20px;
     text-shadow: 2px 2px 2px #d6d6d6;;
-    
 }
 
 .mainLogo{
