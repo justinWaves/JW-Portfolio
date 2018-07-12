@@ -108,17 +108,17 @@ ul {
           transition-delay: 0.2s;
 }
 .stats__item:nth-of-type(3) .stats__item-bar {
-  height: 255px;
+  height: 218px;
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
 }
 .stats__item:nth-of-type(4) .stats__item-bar {
-  height: 80px;
+  height: 130px;
   -webkit-transition-delay: 0.4s;
           transition-delay: 0.4s;
 }
 .stats__item:nth-of-type(5) .stats__item-bar {
-  height: 90px;
+  height: 150px;
   -webkit-transition-delay: 0.5s;
           transition-delay: 0.5s;
 }

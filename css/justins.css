@@ -11,7 +11,6 @@
    font-family: 'Lato';
   -webkit-font-smoothing: antialiased;
   color: white;
-    
 }
 
 .vcenter {
@@ -38,7 +37,7 @@
 
 
 .bodyBkg{
-     background: url(https://ununsplash.imgix.net/photo-1417021423914-070979c8eb34?q=75&fm=jpg&s=55746bd56e02a131b1e48c12196ea866) no-repeat center center fixed;
+     background: url(../Images/sunset.jpg) no-repeat center center fixed;
     
     height: 100%; 
     background-attachment: fixed;
@@ -63,15 +62,17 @@
 .header{
     width: 50%;
     text-align: center;
-    
 }
+
 .title {
-  
+
   text-align: center;
-  margin-top: 20px;
   padding: 10px;
   text-shadow: 2px 2px 2px #aaa;
   color: #FFF;
+    
+    max-height:1111px;
+    background: linear-gradient( #d6d6d6, #FFFFFF);
 }
 
 .mainLogo{
@@ -82,7 +83,6 @@
     height: auto;
    -webkit-filter: drop-shadow(2px 2px 2px #aaa); 
     filter: drop-shadow(2px 2px 8px #aaa);
-
 }
 
 .logoAnimate{
@@ -98,6 +98,11 @@
     height: auto;
    -webkit-filter: drop-shadow(2px 2px 10px #aaa); 
     filter: drop-shadow(2px 2px 10px #aaa);
+}
+
+.treeWindow1{ 
+    width:100%;
+    margin-bottom: -2px;
 }
 
 /*----------------------GRAPH-----------------------*/
@@ -303,11 +308,33 @@
     -o-transition: rotate(3600deg);
 }
 
+/* ------------------MOP Section --------------------*/
 
-/* ------------------WCS Section --------------------*/
+.MOPLogo{
+    width:60%;
+    border-bottom: solid;
+    border-bottom-color: black;
+    border-bottom-width:1px;
+    
+}
 
+.imacWrap1{
+    background-image: url(../Images/MOPscreenShot.jpg);
+ 	background-position: 0px 0px;
+	background-repeat: repeat-y;
+    background-size:96%;
 
-.wcsShadowBorder{
+	animation: animatedBackground 10s  ease-in-out alternate infinite;
+    height:100%;
+    width:100%;
+
+    z-index: 3;
+    overflow: hidden !important;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    position: relative;
+}
+.MOPShadowBorder{
     width: 100%;
     padding:40px;
     background-color:#FFF; 
@@ -316,7 +343,7 @@
     
 }
 
-.wcsLeft{
+.MOPLeft{
   
     display:inline-block;
     float:left;
@@ -332,6 +359,43 @@
     background-color:#FFF; 
     z-index: 3;
 }
+
+.MOPRight{
+    display:flex;
+    height: 100%;
+    float:right;
+    padding:15px;
+    text-align:center;
+    margin:auto;
+     z-index: 3;
+}
+
+
+/* ------------------WCS Section --------------------*/
+
+
+.wcsShadowBorder{
+    width: 100%;
+    padding:40px;
+    background-color:#d6d6d6; 
+    -webkit-box-shadow: inset 0 0 40px rgba(0,0,0,.5);
+    box-shadow: inset 0 0 40px rgba(0,0,0,.5);"
+    
+}
+
+.wcsLeft{
+  
+    display:inline-block;
+    float:left;
+    padding:15px;
+    text-align:center;
+    margin:auto;
+    padding:20px; 
+    text-align:center;
+
+    background-color:#d6d6d6; 
+    z-index: 3;
+}
 .wscLogo{
     width:100%;
     border-bottom: solid;
@@ -343,11 +407,14 @@ th, td {
     padding: 10px;
     text-align: left;
     color:black;
+    border-color: black !important;
 }
 
 
 .wcsTable{
 margin: 0 auto;
+
+    
 }
 
 
@@ -396,10 +463,13 @@ margin: 0 auto;
     display:flex;
     height: 100%;
     float:right;
-    padding:15px;
     text-align:center;
     margin:auto;
      z-index: 3;
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color:#d6d6d6;
 }
 
 
@@ -443,7 +513,7 @@ margin: 0 auto;
     z-index: 2;
    width: 100%;
     padding:40px;
-    background-color:#d6d6d6; 
+    background-color:#FFF; 
     -webkit-box-shadow: inset 0 0 40px rgba(0,0,0,.5);
     box-shadow: inset 0 0 40px rgba(0,0,0,.5);"  
 }
@@ -457,10 +527,8 @@ margin: 0 auto;
     padding:20px; 
     border-style: solid;
     border-width: 1px;
-    border-color: #d6d6d6;
     text-align:center;
-
-    background-color:#d6d6d6; 
+    background-color:#FFF; 
     z-index: 3;
 }
 
@@ -770,7 +838,7 @@ margin: 0 auto;
 .footerContain{
     z-index: 3;
     padding:40px;  
-    background-color:#474747; 
+    background-color:#d6d6d6; 
     display: table;
     width: 100%;
     height: 100%;
