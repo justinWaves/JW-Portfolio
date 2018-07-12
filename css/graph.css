@@ -108,7 +108,7 @@ ul {
           transition-delay: 0.2s;
 }
 .stats__item:nth-of-type(3) .stats__item-bar {
-  height: 215px;
+  height: 255px;
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
 }
