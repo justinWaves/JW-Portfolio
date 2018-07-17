@@ -38,13 +38,14 @@
 
 .bodyBkg{
      background: url(../Images/sunset.jpg) no-repeat center center fixed;
-    
     height: 100%; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 .bodyWrap {display: table;
     width: 100%;
@@ -55,6 +56,16 @@
     margin: auto; 
 }
 
+.btn-xlarge {
+    padding: 10px 20px;
+    font-size: 22px; 
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+   background: linear-gradient( blue, lightblue);
+    box-shadow:  1px 5px 20px rgba(0,0,0,.5);"
+}
 
 /* ---------------------Header----------------------*/
 
@@ -76,7 +87,7 @@
 
 .titleText{
     margin-top: -20px;
-    text-shadow: 2px 2px 2px #d6d6d6;;
+
 }
 
 .mainLogo{
@@ -116,11 +127,126 @@
     box-shadow: inset 0 0 40px rgba(0,0,0,.5);" 
 }
 
-.graphBody{
-  
-    width:100%;
-    margin-left:0px;
+
+.graphBody {
+  display: flex;
+  line-height: 1.5;
+  font-family: 'Lato';
+  -webkit-font-smoothing: antialiased;
+  color: white;
+  background: #d6d6d6;
+}
+
+.stats__header {
+  display: flex;
+  align-items: center;
+
+}
+
+.stats {
+    padding: 2em;
+    width: 100%;
+}
+
+.stats__header-num {
+  margin-right: 25px;
+}
+.stats__header-num p {
+  font-size: 80px;
+  margin: 0;
+  font-weight: 700;
+}
+.stats__header-name p {
+  color: #bababa;
+  margin: 0;
+  font-size: 18px;
+}
+.stats__header-name span {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.8;
+}
+
+.skillsContain{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+       padding:1em;
+}
+
+
+
+.skills{
+     padding:1em;
+    flex-basis:auto;
+    height: 100px;
+    width:100px;
     
+    background-color:#595959;
+    text-align: center;
+    margin:25px;
+    margin-left: -25px;
+    padding-top: 23px;
+    box-shadow: 10px 15px rgba(0, 0, 0, 0.2);
+}
+.mFizzIcon{
+        padding:1em;
+    flex-basis:auto;
+    background-color:#595959;
+    text-align: center;
+    margin:25px;
+    margin-left: -25px;
+    padding-left:10px;
+    padding-top:6px;
+    width:100px;
+    height: 100px;
+    box-shadow: 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.BootstrapIcon{
+    flex-basis:auto;
+    background-color:#595959;
+    text-align: center;
+    margin:25px;
+    margin-left: -25px;
+    padding-top:16px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.textMove{
+    position:relative;
+    top:-10px;
+    left:-4px;
+}
+
+.textMove2{
+    position:relative;
+    top: -8px;
+}
+
+.jqIcon{
+    flex-basis:auto;
+   background-color:#595959;
+    text-align: center;
+    margin:25px;
+    margin-left: -25px;
+    padding-top:20px;
+    padding-left:8px;
+    width:100px;
+    max-height: 100px;
+    height: 100px;
+    box-shadow: 10px 15px rgba(0, 0, 0, 0.2);  
+    
+}
+
+.textMove3{
+    position:relative;
+    top:-12px;
+    left:-4px;
 }
 
 /* -----------------Past Project Header -------------*/
@@ -854,8 +980,6 @@ margin: 0 auto;
     background-color:#d6d6d6; 
     display: table;
     width: 100%;
-    height: 100%;
-    min-height: 100%;
     -webkit-box-shadow: inset 0 0 40px rgba(0,0,0,.5);
     box-shadow: inset 0 0 40px rgba(0,0,0,.5);"
 }
